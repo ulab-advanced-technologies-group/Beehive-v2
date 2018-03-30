@@ -1,6 +1,6 @@
 # Beehive Version 2.0
 
-A refurbished version of the original [Beehive](https://github.com/ucberkeley/Beehive) that is written Rails 5!
+A refurbished version of the original [Beehive](https://github.com/ucberkeley/Beehive) that is written in Rails 5!
 
 ## How to run this Ruby on Rails application?
 1. Download Docker
