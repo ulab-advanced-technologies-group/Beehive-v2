@@ -1,24 +1,8 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# How to run this Ruby on Rails application?
+1. Download Docker
+2. Boot the application
+  - Terminal Command: `docker-compose up`
+3. Create the database
+  - Terminal Command:  `docker-compose run web rake db:create`
+4. Boot the application again
+  - Reminder: Remember to delete the file `./tmp/pids/server.pid`
