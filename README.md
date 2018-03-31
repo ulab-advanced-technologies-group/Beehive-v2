@@ -1,6 +1,7 @@
 # Beehive Version 2.0
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/71f402a5d24ba24e38de/maintainability)](https://codeclimate.com/github/ulab-advanced-technologies-group/Beehive-v2/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/71f402a5d24ba24e38de/test_coverage)](https://codeclimate.com/github/ulab-advanced-technologies-group/Beehive-v2/test_coverage)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 A refurbished version of the original [Beehive](https://github.com/ucberkeley/Beehive)!
