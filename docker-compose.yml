@@ -8,6 +8,8 @@ services:
     build: .
     command: bundle exec rails s -p 3000 -b '0.0.0.0'
     environment:
+      # For deployment, one needs to create a '/config/initializers/_environment_variables.rb' file for secrets and comment this section.
+      # Afterwards, one needs to add the newly created file to '.gitignore' for security reasons.
       - SECRET_KEY_BASE=6efd63d1c54a1cf06955ae4fb4adad15acdccc51fce20c0b20c842f0385503387903c4933c69b8920706cbb39badd009b0fa1cff898791451f3d1adc1e83ebf3
     volumes:
       - .:/myapp
