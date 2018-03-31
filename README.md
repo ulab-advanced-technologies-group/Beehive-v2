@@ -7,7 +7,7 @@ A refurbished version of the original [Beehive](https://github.com/ucberkeley/Be
 2. Boot the application
     - Terminal Command: `docker-compose up`
 3. Create the database
-    - In another terminal, run:  `docker-compose run web rake db:create`
+    - In another terminal, run: `docker-compose run web rake db:create`
 4. Within a browser, open: `localhost:3000`
 5. [Optional] Boot the application again
     - Same procedure as step 2
